@@ -148,6 +148,10 @@ describe('even', () => {
   test('can identify that num is an even number', () => {
     actual = even(10);
     expect(actual).toBeTruthy();
+
+    // expected = true;
+    // actual = even(10);
+    // expect(actual).toBe(expected);
   });
 
   test('can identify that num is not even number', () => {
@@ -160,6 +164,10 @@ describe('odd', () => {
   test('can identify that num is an odd number', () => {
     actual = odd(267);
     expect(actual).toBeTruthy();
+
+    // expected = true;
+    // actual = odd(267);
+    // expect(actual).toBe(expected);
   });
 
   test('can identify that num is not odd number', () => {

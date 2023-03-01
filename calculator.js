@@ -20,10 +20,12 @@ const modulus = function(a, b){
 
 const even = function(num){
     return (num % 2) === 0;
+    // return modulus(num, 2) === 0;
 }
 
 const odd = function(num){
-    return (num % 2) !== 0; 
+    return (num % 2) !== 0;
+    // return modulus(num, 2) !== 0; 
 }
 
 module.exports = { 
